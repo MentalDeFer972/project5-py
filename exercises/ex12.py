@@ -29,7 +29,9 @@ class Library:
                 if book.title == book_title:
                     self.borrow_book.append(book)
                     self.books.remove(book)
-                    print("Livre déplacée dans la liste des livres                           empruntées")
+                    print(
+                        "Livre déplacée dans la liste des livres                           empruntées"
+                    )
                 else:
                     raise Exception("Livre introuvable.")
         except Exception as e:
@@ -41,7 +43,9 @@ class Library:
                 if book.title == book_title:
                     self.books.append(book)
                     self.borrow_book.remove(book)
-                    print("Livre déplacée dans la liste des livres                           empruntées")
+                    print(
+                        "Livre déplacée dans la liste des livres                           empruntées"
+                    )
                 else:
                     raise Exception("Livre introuvable.")
         except Exception as e:

@@ -1,5 +1,6 @@
 # Write your code here
 
+
 class BankAccount:
     def __init__(self, account_holder, balance):
         self.account_holder = account_holder
@@ -18,7 +19,9 @@ class BankAccount:
             print(e)
 
     def display_balance(self):
-        print(f"Nom du propiétaire : {self.account_holder}, \nSolde:                    {self.balance}")
+        print(
+            f"Nom du propiétaire : {self.account_holder}, \nSolde:                    {self.balance}"
+        )
 
 
 ba = BankAccount("Joffrey", 560.38)
@@ -34,6 +37,3 @@ ba.display_balance()
 ba.withdraw(561.38)
 
 ba.display_balance()
-
-
-

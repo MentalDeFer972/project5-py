@@ -1,8 +1,9 @@
 # Write your code here
 
+
 def square(number):
     try:
-        result = number ** 2
+        result = number**2
         return result
     except TypeError:
         print("Le paramètre doit être un nombre!")
@@ -11,4 +12,3 @@ def square(number):
 
 print(square(2))
 print(square("2"))
-
