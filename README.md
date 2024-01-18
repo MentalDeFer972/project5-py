@@ -1,5 +1,5 @@
 
-<img src='./assets/img.png'></>
+<img src='./assets/img.png'>
 
 
 # Project 5 - Tests competencies python
